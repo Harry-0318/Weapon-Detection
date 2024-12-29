@@ -12,19 +12,19 @@ This project implements a real-time gun detection system using OpenCV and a Haar
 - Python 3.x
 - OpenCV library
 - imutils library
-- Pre-trained Haar cascade XML file for gun detection (`cascade.xml`)
+- Pre-trained Haar cascade XML file for gun detection (`cascade.xml`) is given in the repository
 
 ## Installation
 1. Install Python and the required libraries:
    ```bash
-   pip install opencv-python imutils
+   pip install opencv-python opencv-python-headless opencv-contrib-python imutils numpy
    ```
 2. Ensure you have a compatible Haar cascade XML file for gun detection named `cascade.xml` in the same directory as the script.
 
 ## Usage
 1. Run the script:
    ```bash
-   python gun_detection.py
+   python main.py
    ```
 2. Press the `q` key to quit the video stream.
 
