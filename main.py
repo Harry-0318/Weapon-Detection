@@ -11,7 +11,7 @@ gun_exist = None
 
 while True:
   ret,frame = camera.read()
-  if frame.any():
+  if ret:
     frame = imutils.resize(frame,width=500)
   else:
     continue 
